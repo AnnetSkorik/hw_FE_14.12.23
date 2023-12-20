@@ -1,0 +1,30 @@
+@use "variables";
+
+section2 {
+  .category {
+    @include variables.category;
+    h5 {
+        @include variables.category_h5;
+    }
+    p {
+        @include variables.category_p;
+    }
+    .icons-categories {
+    @include variables.icons_categories;
+      gap: 0.5px;
+      padding-left: 100px;
+      padding-right: 50px;
+
+      .icon {
+        p {
+            @include variables.icon_p;
+        }
+      }
+      .shop {
+        @include variables.shop;
+      }
+    }
+  }
+}
+//     }
+// }

@@ -1,0 +1,67 @@
+$primary-font: "Open Sans", sans-serif;
+$secondary-font: "Poppins", sans-serif;
+$down-font: "Roboto", sans-serif;
+$primary-nav-color: #50806b;
+$secondary-nav-color: #fff;
+$primary-text-line: #fff;
+$secondary-text-line: #50806b;
+$third-text-line: #000;
+$fourth-text-line: #979797;
+$fivth-text-line: #343434;
+$primery-main-color: #e8edde;
+$secondary-content-color: #50806b33;
+$bg-color: #fff;
+$bg-secondary-color: #060605;
+$bg-third-color: #50806b;
+$bg-fourth-color: #e8edde;
+$button-color: #50806b;
+
+@mixin icon_p {
+  color: variables.$fivth-text-line;
+  text-align: center;
+  font-family: variables.$primary-font;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@mixin icons_categories {
+  display: flex;
+  width: 1200px;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+@mixin shop {
+  width: 345px;
+  height: 65px;
+  border-radius: 8px;
+  background: variables.$button-color;
+  color: variables.$bg-color;
+  text-align: center;
+  text-align: center;
+  font-family: variables.$primary-font;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@mixin category_p {
+  color: variables.$fourth-text-line;
+  padding-top: 30px;
+}
+
+@mixin category {
+  background: variables.$bg-color;
+  padding-top: 120px;
+  padding-left: 100px;
+}
+
+@mixin category_h5 {
+  font-family: variables.$secondary-font;
+  color: variables.$secondary-text-line;
+  padding-left: 0px;
+  font-size: 56px;
+  font-weight: 600;
+  span {
+    color: variables.$third-text-line;
+  }
+}

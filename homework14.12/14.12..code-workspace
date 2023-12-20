@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../spiderman"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "14.12."
+	}
+}
